@@ -1,0 +1,14 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.active {
+  color: rgb(217, 15, 15);
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
