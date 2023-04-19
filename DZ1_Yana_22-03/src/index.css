@@ -2,11 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
+  color: black;
 }
 li {
   list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.active {
+  color: black;
+  display: inline-block;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 105%;
+  background-color: black;
+  position: absolute;
 }
