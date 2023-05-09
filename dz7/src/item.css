@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1080px;
+  margin: 0 auto;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.box {
+  background-color: rgb(81, 82, 83);
+  height: 380px;
+  width: 320px;
+  padding: 10px;
+}
+.btn {
+  background-color: darkolivegreen;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.btn:before {
+  height: 0%;
+  width: 2px;
+}
+.btn:after {
+  width: 0%;
+  height: 2px;
+}
+.btn:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.btn:hover:before {
+  height: 100%;
+}
+.btn:hover:after {
+  width: 100%;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.price {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.glav {
+
+}
